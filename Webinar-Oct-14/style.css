@@ -8,12 +8,20 @@
 {
 	.mainSidebar
 	{
-	position: relative;		
+	position: relative;	
 	}
 }
-.conversionOptimization, .engine_list, .connect_us, .articles_list,.left_menu
+.conversionOptimization, .engine_list, .connect_us, .articles_list,.left_menu,.left_menu_service
 {
 	display:none;
+}
+.mainSidebar {
+	max-height: calc(100vh);
+  overflow-y: auto;
+	position: sticky;
+	top: 0;
+	overflow-x: hidden;
+	padding-bottom: 0 !important;
 }
 #free-webinar-badge
 {
@@ -24,7 +32,7 @@
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
-font-size: 26px;
+font-size: 24px;
 text-align: left;
 letter-spacing: 0.085em;
 color: #000000;
@@ -43,10 +51,10 @@ font-style: normal;
 	line-height: 1.9;
 	font-weight: 400;
 	text-align: left;
-font-weight: normal;
 font-size: 16px;
 color: #393939;
 	padding: 0 15px 10px 15px;
+	margin-top: -10px;
 }
 #webinar-date {
   font-family: Roboto;
@@ -141,4 +149,28 @@ box-shadow: 0 1px 3px #b9d8ff,0 3px 8px rgba(185,216,255,.4);
 width: 100%;
 margin-left: 0;
 	font-size: 16px;
+}
+#list-webinar {
+	font-family: Roboto;
+font-style: normal;
+	line-height: 1.9;
+	font-weight: 400;
+	text-align: left;
+font-weight: normal;
+font-size: 16px;
+color: #393939;
+	padding: 0 15px 10px 15px;
+	margin-top: -15px;
+	margin-left: 15px;
+}
+#date-button {
+	font-family: Roboto;
+font-style: normal;
+	line-height: 1.9;
+	font-weight: 400;
+	text-align: center;
+font-weight: normal;
+font-size: 13px;
+color: #393939;
+padding-top: 7px;
 }

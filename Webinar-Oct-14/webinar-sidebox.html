@@ -1,35 +1,62 @@
-
-
+<!-- <script>
+	(function(){
+ setTimeout(function(){
+var sideBar = document.querySelector('.mainSidebar');
+if(sideBar) {
+	var sideBarHeight = sideBar.scrollHeight;
+	var sideBarTopDistance = sideBar.offsetTop;
+	var totalHeight = sideBarTopDistance + sideBarHeight;
+	var customClass = 'sticky-sidebar';
+	jQuery(window).on('scroll', function(e){
+console.log(jQuery(this).scrollTop(), totalHeight);
+		var isSticky = sideBar.classList.value.indexOf(customClass) !== -1;
+		if (jQuery(this).scrollTop() >= totalHeight) {
+			if(!isSticky)
+				sideBar.classList.add(customClass);
+		}else{
+			sideBar.classList.remove(customClass);
+		}
+})
+}
+},2000);
+})()
+</script> -->
 <div id="webinar-sidebox">
 	<section id="free-webinar-badge">
-	   <img src="https://www.invespcro.com/blog/images/blog-images/Group-178-2.png" alt="badge">
+	   <img src="https://www.invespcro.com/blog/images/blog-images/top-logo.png" alt="badge">
 	</section>
 	<section id="custom_html-13" class="widget_text widget-odd widget-first widget-1 marketing-in-crisis widget widget_custom_html" slot="sidebar" style="padding-bottom:20px;">
 	   <h3 class="widget-title" style="text-align: left;" id="webinar-headline">Rapid Innovation like Amazon</h3>
 	   <div class="textwidget custom-html-widget">
-		  <p style="text-align: left;" id="webinar-body-text">Everyone keeps telling you to tie marketing to revenue. But at the end of the day, revenue is just a number. How do you bring that number to life? In this session, we'll show you a practical process used to build marketing systems that close large deals ($500K+) and small deals (&lt;$5K) at Firetrace.
-		  </p>
-		  <p style="text-align: center;" id="webinar-date">Wednesday 11th of November, 2020
+		  <p style="text-align: left;" id="webinar-body-text">This live session is not for everyone. It's for:</p>
+		  <ul style="text-align: left !important;" id="list-webinar">
+			  <li>Marketers who are bold, courageous, and not afraid of taking risks and experimenting;</li>
+			  <li>Marketers who want to learn the Amazon style of experimentation;</li>
+			  <li>Marketers who want to understand why innovation dies at some companies but flourishes at others.</li>
+		  </ul>
+		  <!-- <p style="text-align: center;" id="webinar-date">Wednesday 11th of November, 2020
 			 12pm ET/ 9am PT/ 6pm CEST
-		  </p>
+		  </p> -->
 		  <section id="khalid-img">
-			 <a href="https://lu.ma/jk8t2exx" target="_blank"><img src="https://www.invespcro.com/blog/images/blog-images/Group-296.png" alt="Khalid"></a>
+			 <a href="https://lu.ma/invesp-online-session" target="_blank"><img src="https://www.invespcro.com/blog/images/blog-images/speaker-img.png" alt="Speakers"></a>
 		  </section>
 		  <div style="padding-bottom:25px;"></div>
+		  
 		  <button
 			 class="register-button"
 			 type="button"
 			 data-luma-action="checkout"
-			 data-luma-event-id="evt-cWR95TOuza0R7sn"
+			 data-luma-event-id="evt-UoI2gMkhz81B5gl"
 			 >
 			 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 				<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
 				<path d="M22 4L12 14.01l-3-3"></path>
 			 </svg>
-			 &nbsp; REGISTER FOR FREE
+			 &nbsp; SAVE YOUR SEAT
 		  </button>
 		  <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
 	   </div>
+		<p id="date-button">Wendesday, 11th of November</p>
 	</section>
  </div>
  
