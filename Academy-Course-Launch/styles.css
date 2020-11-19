@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("fonts.googleapis.com/css?family=Montserrat");
+@media (max-width: 980px) {
+  .mainSidebar {
+    display: none;
+  }
+  .mainBodyWrapper {
+    width: 100% !important;
+  }
+}
+.left_menu_detail {
+  margin-top: -35px !important;
+}
+.mainBodyWrapper {
+  width: calc(100% - 350px);
+}
+.conversionOptimization,
+.engine_list,
+.connect_us {
+  display: none;
+}
+.articles_list {
+  margin-top: 35px !important;
+}
+.left_menu {
+  margin-top: 60px;
+  padding-top: 0px;
+}
+.mainSidebar {
+  width: 350px;
+}
+.newsletter {
+  padding: 0 0 0 0;
+  margin-top: -40px;
+}
+#course-sidebox {
+  width: 350px;
+  background: #0f3164;
+  height: 517px;
+  font-family: Roboto, sans-serif;
+  font-size: 100%;
+}
+#course-headline {
+  margin: 0;
+  padding: 30px 42px 0 35px;
+}
+#course-headline p {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+#course-headline strong {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+#course-sub-headline {
+  margin: 0 !important;
+  padding: 10px 67px 0px 35px;
+  color: #ffbd59;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+#course-sub-header p {
+  font-weight: 400;
+  margin: 0 !important;
+}
+#course-sub-header strong {
+  font-weight: 500;
+}
+.course-benefits {
+  padding-left: 35px;
+  color: #ffffff;
+  line-height: 26px;
+}
+.course-benefits i {
+  margin-top: 10px !important;
+  font-size: 14px;
+}
+.course-benefits img {
+  margin-right: 5px !important;
+}
+#course-image {
+  position: relative;
+  margin-left: 216px;
+  margin-top: -100px;
+  margin-bottom: 15px;
+}
+#course-cta {
+  background: #ffbd59;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 10px 17px !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  border-radius: 19px;
+}
+#course-cta a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#course-cta a:hover {
+  color: #c9293b;
+}
+#course-price p {
+  text-align: center;
+}
+#course-price > p:nth-child(1) > span:nth-child(1) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+#course-price > p:nth-child(1) > span:nth-child(2) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #ffbd59;
+}
+#course-price > p:nth-child(1) > span:nth-child(3) {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #ffbd59;
+}
+#course-price > p:nth-child(1) > span:nth-child(4) {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #ffbd59;
+}
