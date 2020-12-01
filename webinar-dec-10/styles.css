@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("fonts.googleapis.com/css?family=Montserrat");
+@media (max-width: 930px) {
+  .mainSidebar {
+    display: none;
+  }
+  .mainBodyWrapper {
+    width: 100% !important;
+  }
+}
+.left_menu_detail {
+/*   margin-top: -35px !important; */
+}
+.mainBodyWrapper {
+  width: calc(100% - 350px);
+}
+.conversionOptimization,
+.engine_list,
+.connect_us {
+  display: none;
+}
+.articles_list {
+/*   margin-top: 35px !important; */
+}
+.left_menu {
+  margin-top: 60px;
+  padding-top: 0px;
+}
+.mainSidebar {
+  width: 350px;
+	max-height: calc(100vh);
+      overflow-y: auto;
+	position: sticky;
+	top: 0;
+	overflow-x: hidden;
+-ms-overflow-style: none;
+}
+.mainSidebar::-webkit-scrollbar {
+  display: none;
+}
+.newsletter {
+  padding: 0 0 0 0;
+  margin-top: -20px;
+}
+.side-bar_main {
+  width: 350px;
+  height: 527px;
+  background-image: url("https://www.invespcro.com/blog/images/blog-images/side-bar_background.png");
+  background-size: cover;
+	margin-top: 45px;
+}
+.side-bar_headline p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #1e354d;
+	padding-bottom: 10px;
+}
+.side-bar_khalid-img {
+  margin-left: 41px;
+}
+.side-bar_speaker-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.side-bar_speaker-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #f77732;
+}
+.side-bar_khalid > p.side-bar_speaker-name {
+  margin-left: 43px;
+  margin-top: 10px;
+}
+.side-bar_khalid > p.side-bar_speaker-position {
+  margin-left: 56px;
+  margin-top: -8px;
+}
+.side-bar_jakub-img {
+  position: absolute;
+  left: 204px;
+  top: 110px;
+}
+.side-bar_jakub > p.side-bar_speaker-name {
+  width: 126px;
+  height: 21px;
+  margin-left: 194px;
+  margin-top: -48px;
+}
+.side-bar_jakub > p.side-bar_speaker-position {
+  width: 122px;
+  height: 14px;
+  margin-left: 196px;
+  margin-top: -8px;
+}
+.side-bar_jakub > p.side-bar_speaker-position > a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #f77732;
+	text-decoration: underline;
+}
+.side-bar_body {
+  margin-top: 17px;
+  margin-left: 35px;
+  margin-right: 15px;
+  padding: 0 0 0 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 135%;
+  color: #ffffff;
+	margin-bottom: 10px;
+}
+.side-bar_cta {
+  background: linear-gradient(122.64deg, #ffbe41 -190.54%, #f21111 177.24%);
+  border-radius: 17px;
+  width: 288px;
+  height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 35px;
+  margin-top: 11px;
+	padding-top: 7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.side-bar_cta a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.side-bar_time {
+	border: none;
+background: #1E354D !important;
+  margin-left: 31px;
+  margin-top: 9px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 159.02%;
+  /* identical to box height, or 19px */
+  color: #ffffff;
+}
+.side-bar_time-watch-logo {
+    position: absolute;
+		margin-top: 3px;
+}
+.side-bar_time-calendar-logo {
+    position: absolute;
+}
+body > div.container > div > div > div.mainSidebar > div > div.widget_text.newsletter > div > div > section.side-bar_time > p:nth-child(2) {
+	margin-left: 37px;
+}
+body > div.container > div > div > div.mainSidebar > div > div.widget_text.newsletter > div > div > section.side-bar_time > p:nth-child(4) {
+	margin-left: 37px;
+	margin-top: 14px;
+}
