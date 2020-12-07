@@ -1,184 +1,207 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-@import url("fonts.googleapis.com/css?family=Montserrat");
-@media (max-width: 930px) {
-  .mainSidebar {
-    display: none;
+  @import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+  @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+  @import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+  @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+  @import url("fonts.googleapis.com/css?family=Montserrat");
+
+  @media (max-width: 930px) {
+    .mainSidebar {
+      display: none !important;
+    }
+    .mainBodyWrapper {
+      width: 100% !important;
+    }
   }
+  @media (min-width: 931px) {
   .mainBodyWrapper {
-    width: 100% !important;
+    width: calc(100% - 350px) !important;
   }
-}
-.left_menu_detail {
-/*   margin-top: -35px !important; */
-}
-.mainBodyWrapper {
-  width: calc(100% - 350px);
-}
-.conversionOptimization,
-.engine_list,
-.connect_us {
-  display: none;
-}
-.articles_list {
-/*   margin-top: 35px !important; */
-}
-.left_menu {
-  margin-top: 60px;
-  padding-top: 0px;
-}
-.mainSidebar {
-  width: 350px;
-	max-height: calc(100vh);
-      overflow-y: auto;
-	position: sticky;
-	top: 0;
-	overflow-x: hidden;
--ms-overflow-style: none;
-}
-.mainSidebar::-webkit-scrollbar {
-  display: none;
-}
-.newsletter {
-  padding: 0 0 0 0;
-  margin-top: -20px;
-}
-.side-bar_main {
-  width: 350px;
-  height: 527px;
-  background-image: url("https://www.invespcro.com/blog/images/blog-images/side-bar_background.png");
-  background-size: cover;
-	margin-top: 45px;
-}
-.side-bar_headline p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #1e354d;
-	padding-bottom: 10px;
-}
-.side-bar_khalid-img {
-  margin-left: 41px;
-}
-.side-bar_speaker-name {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
-  color: #ffffff;
-}
-.side-bar_speaker-position {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-  color: #f77732;
-}
-.side-bar_khalid > p.side-bar_speaker-name {
-  margin-left: 43px;
-  margin-top: 10px;
-}
-.side-bar_khalid > p.side-bar_speaker-position {
-  margin-left: 56px;
-  margin-top: -8px;
-}
-.side-bar_jakub-img {
-  position: absolute;
-  left: 204px;
-  top: 110px;
-}
-.side-bar_jakub > p.side-bar_speaker-name {
-  width: 126px;
-  height: 21px;
-  margin-left: 194px;
-  margin-top: -48px;
-}
-.side-bar_jakub > p.side-bar_speaker-position {
-  width: 122px;
-  height: 14px;
-  margin-left: 196px;
-  margin-top: -8px;
-}
-.side-bar_jakub > p.side-bar_speaker-position > a {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-  color: #f77732;
-	text-decoration: underline;
-}
-.side-bar_body {
-  margin-top: 17px;
-  margin-left: 35px;
-  margin-right: 15px;
-  padding: 0 0 0 0;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 135%;
-  color: #ffffff;
-	margin-bottom: 10px;
-}
-.side-bar_cta {
-  background: linear-gradient(122.64deg, #ffbe41 -190.54%, #f21111 177.24%);
-  border-radius: 17px;
-  width: 288px;
-  height: 32px;
-  text-align: center;
-  vertical-align: middle;
-  margin-left: 35px;
-  margin-top: 11px;
-	padding-top: 7px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-  /* identical to box height */
-  color: #ffffff;
-}
-.side-bar_cta a {
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer;
-}
-.side-bar_time {
-	border: none;
-background: #1E354D !important;
-  margin-left: 31px;
-  margin-top: 9px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 159.02%;
-  /* identical to box height, or 19px */
-  color: #ffffff;
-}
-.side-bar_time-watch-logo {
-    position: absolute;
-		margin-top: 3px;
-}
-.side-bar_time-calendar-logo {
-    position: absolute;
-}
-body > div.container > div > div > div.mainSidebar > div > div.widget_text.newsletter > div > div > section.side-bar_time > p:nth-child(2) {
-	margin-left: 37px;
-}
-body > div.container > div > div > div.mainSidebar > div > div.widget_text.newsletter > div > div > section.side-bar_time > p:nth-child(4) {
-	margin-left: 37px;
-	margin-top: 14px;
+  .conversionOptimization,
+  .engine_list,
+  .connect_us {
+    display: none !important;
+  }
+
+  .left_menu {
+    margin-top: 60px !important;
+    padding-top: 0px !important;
+  }
+  .mainSidebar {
+    width: 350px !important;
+    max-height: calc(100vh) !important;
+    overflow-y: auto !important;
+    position: sticky !important;
+    top: 0 !important;
+    overflow-x: hidden !important;
+    -ms-overflow-style: none !important;
+  }
+  .mainSidebar::-webkit-scrollbar {
+    display: none !important;
+  }
+  .newsletter {
+    padding: 0 0 0 0 !important;
+    margin-top: -20px !important;
+  }
+  .side-bar_main {
+    width: 350px !important;
+    height: 543px;
+    background-image: url("https://www.invespcro.com/blog/images/blog-images/Blog-Side-bar-2-1.png");
+    background-size: cover !important;
+    margin-top: 40px !important;
+  }
+  .side-bar_headline strong {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 23.5px !important;
+    line-height: 28px !important;
+    text-align: center !important;
+    color: #1e354d;
+    padding-bottom: 10px !important;
+  }
+  .side-bar_headline p {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 23.5px !important;
+    line-height: 28px !important;
+    text-align: center !important;
+    color: #1e354d;
+    padding-bottom: 10px !important;
+  }
+  .side-bar_khalid-img {
+    margin-left: 41px !important;
+  }
+  .side-bar_speaker-name {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    /* identical to box height */
+    color: #ffffff;
+  }
+  .side-bar_speaker-position {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    /* identical to box height */
+    color: #f77732;
+  }
+  .side-bar_khalid-name {
+    margin-left: 43px !important;
+    margin-top: 10px !important;
+  }
+  .side-bar_khalid-position {
+    margin-left: 56px !important;
+    margin-top: -8px !important;
+  }
+  .side-bar_jakub-img {
+    position: absolute !important;
+    left: 204px !important;
+    top: 115px !important;
+  }
+  .side-bar_jakub-name {
+    width: 126px !important;
+    height: 21px !important;
+    margin-left: 194px !important;
+    margin-top: -48px !important;
+  }
+  .side-bar_jakub-position {
+    width: 122px !important;
+    height: 14px !important;
+    margin-left: 196px !important;
+    margin-top: -8px !important;
+  }
+  .side-bar_jakub-position > a {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    /* identical to box height */
+    color: #f77732;
+    text-decoration: underline !important;
+  }
+  .side-bar_body {
+    margin-top: 17px !important;
+    margin-left: 35px !important;
+    margin-right: 15px !important;
+    padding: 0 0 0 0 !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: 135% !important;
+    color: #ffffff;
+    margin-bottom: 10px !important;
+  }
+  .side-bar_body strong {
+    padding: 0 0 0 0 !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: 135% !important;
+    color: #ffffff;
+  }
+  .side-bar_cta {
+    background: linear-gradient(
+      122.64deg,
+      #ffbe41 -190.54%,
+      #f21111 177.24%
+    );
+    border-radius: 17px !important;
+    width: 288px !important;
+    height: 32px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    margin-left: 35px !important;
+    margin-top: 11px !important;
+    padding-top: 7px !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    /* identical to box height */
+    color: #ffffff !important;
+  }
+  .side-bar_cta a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+  }
+  .side-bar_time {
+    border: none !important;
+    margin-left: 31px !important;
+    margin-top: 9px !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 159.02% !important;
+    /* identical to box height, or 19px */
+    color: #ffffff;
+  }
+  .side-bar_time-watch-logo {
+    position: absolute !important;
+    margin-top: 3px !important;
+  }
+  .side-bar_time-calendar-logo {
+    position: absolute !important;
+  }
+  .side-bar_time-clock {
+    margin-left: 37px !important;
+  }
+  .side-bar_time-date {
+    margin-left: 37px !important;
+    margin-top: 14px !important;
+  }
+  .side-bar_time > strong {
+    font-weight: normal !important;
+  }
 }

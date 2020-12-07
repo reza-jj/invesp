@@ -1,0 +1,25 @@
+ /* body{ color: red; } */ 
+ @media (min-width: 931px) {
+	.widget_text.newsletter {
+		background-color: #C9293B;
+            		border-left: 2px #C9293B solid;
+            		border-bottom: 2px #C9293B solid;
+	}
+	.side-bar_main {
+		background-image: url("https://www.invespcro.com/blog/images/blog-images/Blog-Side-bar-1-1.png") !important;
+      		border-right: 4px #C9293B solid;
+      height: 561px;
+	}
+	.side-bar_headline p {
+		color: white !important;
+	}
+	.side-bar_body, .side-bar_time, .side-bar_speaker-name {
+		color: #1E354D !important;
+	}
+	.side-bar_cta {
+		background: linear-gradient(103.59deg, #F21111 -23.87%, #C9293B 145.95%) !important;
+	}
+    .side-bar_speaker-position {
+      color: #C9293B !important;
+    }
+  }
