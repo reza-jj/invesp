@@ -1,0 +1,61 @@
+/* old menu */
+body {
+	background: #fff !important;
+}
+.mainSidebar {
+	background: #fff !important;	
+	background-color:  #fff !important;;
+	padding-bottom: 0 !important;
+}
+.articles_list {
+	display: none !important;
+}
+.left_menu, .left_menu_service {
+	display: none !important;
+}
+body > div.container > div > div > div.mainBodyWrapper > div > div.blogPosts > ul > li > div:nth-child(5) {
+	display: none !important;
+}
+body > div.container > div > div > div.mainSidebar > div > div.important_menu.mobdisplay {
+	display: none !important;
+}
+.comments-area {
+	display: none !important;
+}
+.blog_full_heading {
+	font-size: 2.1em !important;
+	line-height: 130% !important;
+}
+body > div.container > div > div > div.mainBodyWrapper > div > div.blogPosts > ul > li > div.blog_link > div.link_detail {
+	display: none !important;
+}
+body > div.container > div > div > div.mainBodyWrapper {
+	padding-top: 0 !important;
+}
+body > div.container > div > div > div.mainSidebar > div > div.widget_text.newsletter > div > div > section.side-bar_speaker-images > section.side-bar_jakub {
+	top: 97px !important;
+}
+body > div.container > div > div > div.mainBodyWrapper > div > div.blogPosts > ul > li > div.blog_link {
+	border-bottom: none !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 0 !important;
+}
+.post_detail {
+	width: 790px !important;
+	margin-left: 42px !important;
+}
+.enter_email {
+	display: none !important;
+}
+.mainBodyWrapper {
+	padding-bottom: 0 !important;
+}
+.code-block {
+	display: none !important;
+}
+.side-bar_main {
+	background-image: url(https://www.invespcro.com/blog/images/blog-images/side-bar_background.png) !important;
+}
+.section_right {
+	background-color: white !important;
+}
